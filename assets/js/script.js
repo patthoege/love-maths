@@ -134,6 +134,9 @@ function displayMultiplyQuestion(operand1, operand2) {
 }
 
 function displayDivisionQuestion(operand1, operand2) {
+    //Remember, you can easily make sure the first operand is divisible by the second operand 
+    //by multiplying (*) your two random numbers and using the result as operand1.
+    // You can then use either of the random numbers as operand2.
     operand1 = operand1 * operand2; 
     document.getElementById('operand1').textContent = operand1;
     document.getElementById('operand2').textContent = operand2;
